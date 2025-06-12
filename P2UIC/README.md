@@ -17,16 +17,24 @@
     <strong>Qi Zhao</strong></a>
     <br />
  </p>
-
-## Introduction
-
-This repo is the implementation of "P^2UIC: Plug-and-Play Physics-Aware Contrastive Mamba Framework for Underwater Image Captioning"
-
-The overall architecture of Multi-Head Criss-Cross Mamba:
-
 <p align="center">
   <img src="images/P2UIC.png" width="720">
 </p>
+
+## Highlight!!!!
+P^2UIC: Plug-and-Play Physics-Aware Contrastive Mamba Framework for Underwater Image Captioning
+
+## Abstract
+Underwater Image Captioning (UIC) aims to automatically generate accurate descriptive textual for input underwater images, which faces unique challenges due to environmental distortions such as degraded image quality, ambiguous object categorization, and computational resource limitations. Existing Image Captioning (IC) models, primarily designed for natural scenes, often underperform in underwater environments because they fail to address these domain-specific issues. Recently, the Mamba framework with its linear reasoning capabilities and efficient performance has emerged as a popular alternative to Transformer framework. In this paper, we propose P$^2$UIC, a plug-and-play physics-aware contrastive Mamba framework for underwater image captioning consisting of Underwater Physics Environment-aware Enhancement (UPEE) and Contrastive Multi-sequence Mamba Decoder (CMMD). UPEE enables plug-and-play underwater perception enhancement for any IC model by inferring physical parameters and incorporating environment-specific keywords. Meanwhile, CMMD leverages semantic information from multi-sequence visual features to improve text generation via contrastive learning across multiple text embedding layers. To address the scarcity of evaluation benchmarks, we release two UIC benchmarks by extending existing underwater segmentation datasets and provide expert-annotated descriptions. Our P$^2$UIC effectively handles UIC tasks and achieves state-of-the-art (SOTA) results. Ablation studies and visualization experiments demonstrate the effectiveness of the proposed components.
+
+## TODO
+- [x] Release two benchmark datasets:UWS-IC and SUIM-IC
+- [ ] Release checkpoints and inference codes
+- [ ] Release training codes
+
+## Checkpoints
+* `UWS-IC`:  | [Baidu Drive(pw: puic)]().
+* `SUIM-IC`:  | [Baidu Drive(pw: puic)]().
 
 The heatmap visualization:
 
@@ -37,39 +45,5 @@ The heatmap visualization:
   <img src="images/vis_2.png" width="540">
 </p>
 
-## Usage
-
-### Install
-
-Clone [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) repo and [CCMamba](https://github.com/BinghaoLiu/CCMamba), add the codes of `configs`, `mmseg/datasets/crack500.py` and `mmseg/models/decode_heads/ccmamba_head.py` into corresponding files of MMSegmentation.
-
-Then, run
-`pip install -v -e .`
-to regist Crack500 dataset and CCMamba model.
-
-### Train and Test
-
-+ Use the following command for training
-  
-  ```
-  python tools/train.py \
-  config_path \
-  --work-dir work_path
-  ```
-
-+ Use the following command for testing
-  
-  ```
-  python tools/test.py \
-  config_path \
-  ckpt_path \
-  --work-dir work_path
-  ```
-
 ## Citation
-
-If you have any question, please discuss with me by sending email to liubinghao@buaa.edu.cn
-
-## References
-
-The code is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation), [Mamba](https://github.com/state-spaces/mamba) and [mamba-minimal](https://github.com/johnma2006/mamba-minimal). Thanks for their great works!
+If you have any question, please discuss with me by sending email to wcl_buaa@buaa.edu.cn.
