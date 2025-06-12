@@ -25,13 +25,16 @@ This repo is the implementation of "P^2UIC: Plug-and-Play Physics-Aware Contrast
 The overall architecture of Multi-Head Criss-Cross Mamba:
 
 <p align="center">
-  <img src="images/CCMamba.png" width="720">
+  <img src="images/P2UIC.png" width="720">
 </p>
 
-The heatmap visualization of crack sensitive features:
+The heatmap visualization:
 
 <p align="center">
-  <img src="images/vis.png" width="540">
+  <img src="images/vis_1.png" width="540">
+</p>
+<p align="center">
+  <img src="images/vis_2.png" width="540">
 </p>
 
 ## Usage
