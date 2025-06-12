@@ -35,9 +35,6 @@ Underwater Image Captioning (UIC) aims to automatically generate accurate descri
 ## Checkpoints
 * `UWS-IC`:  | [Baidu Drive(pw: PUIC)](https://pan.baidu.com/s/14XYP0TiIefezCfn6XXZdyQ).
 * `SUIM-IC`:  | [Baidu Drive(pw: PUIC)](https://pan.baidu.com/s/1VOlKi8WOYNet7gdCmat6_w).
-
-The heatmap visualization:
-
 <p align="center">
   <img src="images/vis_3.png" width="540">
 </p>
