@@ -1,7 +1,8 @@
 This repo is the PyTorch implementation of some works of Chunlei Wang.
 # Mehhods
 Robust Visual Grounding: IRVG(https://github.com/cv516Buaa/IR-VG). (IEEE TCSVT 2024)
-Open Vocabulary Visual Grounding: OVVG(https://github.com/cv516Buaa/OV-VG) (Neurocomputing 2024)
+
+* `Open Vocabulary Visual Grounding`:  | [OVVG](https://github.com/cv516Buaa/OV-VG) (Neurocomputing 2024)
 
 # Datasets
 IRVG: https://pan.baidu.com/s/1d9PKz7Zv2dWNYEOf0m3KMw (IEEE TCSVT 2024)
