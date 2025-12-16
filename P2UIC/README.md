@@ -29,7 +29,7 @@ Underwater Image Captioning (UIC) aims to automatically generate accurate descri
 
 ## TODO
 - [x] Release two benchmark datasets:UWS-IC and SUIM-IC
-- [x] Release training codes
+- [x] Release training and inferencing codes
 
 ## Datasets
 * `UWS-IC`:  | [Baidu Drive(pw: PUIC)](https://pan.baidu.com/s/14XYP0TiIefezCfn6XXZdyQ).
